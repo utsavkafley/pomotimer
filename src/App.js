@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Pomo Timer</h1>
-      <Timer />
+      <Timer timerStart={new Date()} timerDuration={1500} />
       <Controls />
     </div>
   );
